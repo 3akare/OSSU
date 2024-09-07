@@ -1,1 +1,0 @@
-[link](https://learning.edx.org/course/course-v1:UBCx+SPD1x+2T2015/block-v1:UBCx+SPD1x+2T2015+type@sequential+block@464765fda50c445db8207eac5126dd5f/block-v1:UBCx+SPD1x+2T2015+type@vertical+block@fcd82bb8856346d3acfb1a5947d571a7)
