@@ -1,0 +1,5 @@
+(define WIDTH 90)
+(define HEIGHT 10)
+WIDTH ;90
+HEIGHT ;10
+(* WIDTH HEIGHT) ;90 * 10 = 900
