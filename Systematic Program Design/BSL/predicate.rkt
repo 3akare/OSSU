@@ -17,3 +17,21 @@ true
 
 (= (image-width IMAGE1) (image-width IMAGE2)) ;false
 (= (image-height IMAGE1) (image-height IMAGE2)) ;true
+
+;; IF expression.
+;; syntax, (if (<expression>) <expression> <expression>)
+(if (>= WIDTH HEIGHT)
+    "width is greater or equal to height"
+    "height is greater than width")
+
+(if (and (> 23 3) (= 30 30))
+  "True"
+  "False") ;True
+
+(if (or (< 23 3) (= 30 30))
+  "True"
+  "False") ;True
+
+(if (not false)
+  "True"
+  "False") ;True
