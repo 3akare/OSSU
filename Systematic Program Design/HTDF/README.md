@@ -11,7 +11,7 @@ Steps:
   eg. (define (square number) 0)
   
 - Tests/Examples: tests for the function
-  eg. (check-expect (square 4) 16), (check-expect (square 5) 16)
+  eg. (check-expect (square 4) 16), (check-expect (square 5) 25)
   
 - Template: similar to the stub.
   eg. (define (square number) (... number))
