@@ -1,7 +1,7 @@
 (require 2htdp/image)
 
 ;; Image -> Image
-;; Overlays the given box on a larger box (2 times he given box size)
+;; Overlays the given box on a larger box (2 times the given box size)
 
 ;; (define (boxify img) img) ; stub
 
