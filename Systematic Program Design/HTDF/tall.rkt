@@ -1,6 +1,6 @@
 (require 2htdp/image)
-;; Image -Boolean
-;; Purpose true if the height of image is greater than width
+;; Image -> Boolean
+;; Returns true if the height of image is greater than width (Purpose)
 
 ;; (define (tall? img) false) ; stub
 
