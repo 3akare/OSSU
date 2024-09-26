@@ -9,7 +9,7 @@
 ;; Template Rule Used
 ;; - atomic non-distinct: Natural[1,10]
 
-;; Seatum -> Boolean
+;; SeatNum -> Boolean
 ;; produces true if the given seat number is on the aisle
 
 #;
