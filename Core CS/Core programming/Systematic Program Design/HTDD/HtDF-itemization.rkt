@@ -32,17 +32,17 @@
 #;
 ;; CountDown -> Image
 ;; produces nice image of current state of countdown
-(define (countdown-to-image cd) (circle 10 "solid" "red")) ;;stub
+(define (countdown-to-image cd) (circle 10 "solid" "red"))
 
 ;;Tests
-(check-expect (countdown-to-image false) (circle 10 "solid" "yellow"))
-(check-expect (countdown-to-image 1) (text (number->string 1) 24 "black"))
-(check-expect (countdown-to-image 10) (text (number->string 10) 24 "black"))
-(check-expect (countdown-to-image "complete") (circle 10 "solid" "green"))
+(check-expect (countdown->image false) (circle 10 "solid" "yellow"))
+(check-expect (countdown->image 1) (text (number->string 1) 24 "black"))
+(check-expect (countdown->image 10) (text (number->string 10) 24 "black"))
+(check-expect (countdown->image "complete") (circle 10 "solid" "green"))
 
              
 ;; < use templates from CountDown>
-(define (countdown-to-image cd) 
+(define (countdown->image cd) 
         (cond [(false? cd) (circle 10 "solid" "yellow")]
               [(number? cd) (text (number->string cd ) 24 "black")]
               [else (circle 10 "solid" "green")]))
