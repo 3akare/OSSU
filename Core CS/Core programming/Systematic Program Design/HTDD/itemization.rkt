@@ -16,7 +16,7 @@
 #;
 (define (fn-for-countdown cd) 
         (cond [(false? cd) (...)]
-              [(and (number? cd)(<= 1 cd)(< cd 10)) (... cd)]
+              [(number? cd) (... cd)]
               [else (...)]))
 
 ;; Template rules used:
