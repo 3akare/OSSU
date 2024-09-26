@@ -13,8 +13,8 @@
             [(string=? rp "square") (...)]
             [(string=? rp "pentagon") (...)]))
 
-;; Template rulre used:
+;; Template rules used:
 ;; - one of: 3 cases:
-;; - atomic disinct value: "triangle"
-;; - atomic disinct value: "square"
-;; - atomic disinct value: "pentagon"
+;; - atomic distinct value: "triangle"
+;; - atomic distinct value: "square"
+;; - atomic distinct value: "pentagon"
